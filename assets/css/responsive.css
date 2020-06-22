@@ -1,0 +1,77 @@
+/*Ipad ngang (1024 x 768) */
+@media screen and (max-width: 1024px){
+
+}
+/*Ipad dọc (768 x 1024) */
+@media screen and (max-width: 768px){
+    body{
+        background-color: #ffffff;
+    }
+    #wrapper {
+        width: 100%;
+        margin: 0px auto;
+        border: none;        
+    }
+    #content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #left{
+        max-width: 100%;
+        padding-right: 0px;
+    }
+    #right{
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    #header img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    #header #header-content h1 {
+        font-size: 32px;
+    }
+    #header #header-content p {
+        font-size: 19px;       
+    }
+    #header #sub-header-content p {
+        font-size: 10px;        
+    }
+    #content #skill-level #skill-level-item #skill-out-bar {        
+        right: 10px;
+    }
+    .content-item #content-title {
+        max-width: 100%;
+    }
+    #learn #title{
+        text-align: center;
+    }
+    #learn #title p{
+        padding-left: 0px;
+    }
+}
+/*Table nhỏ (480 x 640) */
+@media screen and (max-width: 480px){
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    #header img {
+        margin: 10px 100px;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #header #header-content {
+        text-align: center;
+        padding: 17px 0px 0px 0px;
+    }
+}
+/*Iphone (480 x 640) */
+@media screen and (max-width: 320px){
+    
+}
+/*Smart phone nhỏ */
+@media screen and (max-width: 240px){
+
+}

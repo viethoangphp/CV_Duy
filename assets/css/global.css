@@ -1,0 +1,30 @@
+.text-white{
+    color: #ffffff;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-justify{
+    text-align: justify;
+}
+.w-60{
+    max-width: 60%;
+}
+.w-40{
+    max-width: 40%;
+}
+.pr-25{
+    padding-right: 25px;
+}
+.pl-25{
+    padding-left: 25px;
+}
+.pl-0{
+    padding-left: 0px;
+}
+
+.w-80{
+    width: 150px;
+    transition: 1s;
+}
